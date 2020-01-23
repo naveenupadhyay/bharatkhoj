@@ -1,13 +1,13 @@
 <html>
 <h1 class="h1">Meta-search</h1>
 <body>
-<div class="flexsearch">
-		<div class="flexsearch--wrapper">
-			<form class="flexsearch--form" action="index.php" method="post">
-				<div class="flexsearch--input-wrapper">
-					<input class="flexsearch--input" type="search" placeholder="search">
+<div class="metasearch">
+		<div class="metasearch--wrapper">
+			<form class="metasearch--form" action="search.jsp" method="post">
+				<div class="metasearch--input-wrapper">
+					<input class="metasearch--input" type="search" placeholder="search">
 				</div>
-				<input class="flexsearch--submit" type="submit" value="&#10140;"/>
+				<input class="metasearch--submit" type="submit" value="&#10140;"/>
 			</form>
 		</div>
 </div>
@@ -20,7 +20,7 @@
  * Essential Structure *
  ***********************/
 
-.flexsearch--wrapper {
+.metasearch--wrapper {
   height: auto;
   width: auto;
   max-width: 100%;
@@ -30,18 +30,18 @@
   position: static;
 }
 
-.flexsearch--form {
+.metasearch--form {
   overflow: hidden;
   position: relative;
 }
 
-.flexsearch--input-wrapper {
+.metasearch--input-wrapper {
   padding: 0 66px 0 0;
   /* Right padding for submit button width */
   overflow: hidden;
 }
 
-.flexsearch--input {
+.metasearch--input {
   width: 100%;
 }
 
@@ -50,12 +50,12 @@
  * Configurable Styles *
  ***********************/
 
-.flexsearch {
+.metasearch {
   padding: 0 25px 0 200px;
   /* Padding for other horizontal elements */
 }
 
-.flexsearch--input {
+.metasearch--input {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -74,7 +74,7 @@
   -moz-appearance: none;
 }
 
-.flexsearch--submit {
+.metasearch--submit {
   position: absolute;
   right: 0;
   top: 0;
@@ -94,16 +94,16 @@
   line-height: 60px;
 }
 
-.flexsearch--input:focus {
+.metasearch--input:focus {
   outline: none;
   border-color: #333;
 }
 
-.flexsearch--input:focus.flexsearch--submit {
+.metasearch--input:focus.metasearch--submit {
   color: #333;
 }
 
-.flexsearch--submit:hover {
+.metasearch--submit:hover {
   color: #333;
   cursor: pointer;
 }
