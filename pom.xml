@@ -18,7 +18,7 @@
 	<properties>
 		<java.version>1.8</java.version>
 		<start-class>com.bharatkhoj.metasearch.Application</start-class>
-		<http.client.version>4.5.3</http.client.version>
+		<http.client.version>4.5.13</http.client.version>
 	</properties>
 
 	<dependencies>
